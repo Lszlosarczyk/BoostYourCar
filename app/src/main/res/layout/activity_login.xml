@@ -14,7 +14,7 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:id="@+id/Login"
+        android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/logo"
@@ -31,10 +31,10 @@
     <EditText
         android:drawableLeft="@drawable/ic_baseline_info_24"
         android:password="true"
-        android:id="@+id/Haslo"
+        android:id="@+id/haslo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/Login"
+        android:layout_below="@id/login"
         android:background="@color/lightgrey"
         android:hint="Haslo"
         android:padding="20dp"
@@ -43,10 +43,10 @@
         android:textColorHint="@color/black" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/Przycisk_login"
+        android:id="@+id/przycisk_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/Haslo"
+        android:layout_below="@id/haslo"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
