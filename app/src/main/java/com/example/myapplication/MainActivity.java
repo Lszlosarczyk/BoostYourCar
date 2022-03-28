@@ -30,15 +30,15 @@ public class MainActivity extends AppCompatActivity
             {
                 Log.d("TAG", "onNavigationItemSelected: " + menuItem.getItemId());
 
-                switch (menuItem.getItemId())
-                {
-                    case R.id.nav_logout:
-                        addFragment();
-                        break;
-
-                    default:
-                        break;
-                }
+//                switch (menuItem.getItemId())
+//                {
+//                    case R.id.nav_logout:
+//                        addFragment();
+//                        break;
+//
+//                    default:
+//                        break;
+//                }
 
 
                 drawer.close();
