@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_felgi"
+            android:icon="@drawable/kolko"
+            android:title="Felgi" />
+
+        <item android:id="@+id/nav_tuning_silnika"
+            android:icon="@drawable/turbina"
+            android:title="Tuning Silnika" />
+
+        <item android:id="@+id/nav_tuning_zawieszenia"
+            android:icon="@drawable/amor"
+            android:title="Tuning Zawieszenia" />
+
+        <item android:id="@+id/nav_tuning_wewnetrzny"
+            android:icon="@drawable/kiera"
+            android:title="Tuning Wewnętrzny" />
+
+        <item android:id="@+id/nav_tuning_zewnetrzny"
+            android:icon="@drawable/zderzak"
+            android:title="Tuning Zewnętrzny" />
+
+        <item android:id="@+id/nav_kosmetyki_samochodowe"
+            android:icon="@drawable/spray"
+            android:title="Kosmetyki Samochodowe" />
+
+    </group>
+
+</menu>
