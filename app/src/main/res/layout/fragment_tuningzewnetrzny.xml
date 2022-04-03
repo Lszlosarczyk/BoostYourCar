@@ -4,11 +4,77 @@
     android:layout_height="match_parent"
     android:background="@color/teal_200">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="tuningzewnetrzny_fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+    <ImageView
+        android:id="@+id/work"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:padding="20dp"
+        android:src="@drawable/work" />
 
+    <ImageView
+        android:id="@+id/bbs"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:padding="20dp"
+        android:src="@drawable/bbs" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/bbs"
+        android:layout_marginStart="10dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae lectus quis dolor ultrices pulvinar. Mauris eget convallis lectus." />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/work"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae lectus quis dolor ultrices pulvinar. Mauris eget convallis lectus." />
+
+    <ImageView
+        android:id="@+id/kolo3"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="30dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:padding="20dp"
+        android:src="@drawable/work" />
+
+    <ImageView
+        android:id="@+id/kolo4"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="30dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:padding="20dp"
+        android:src="@drawable/bbs" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/kolo3"
+        android:layout_marginStart="10dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae lectus quis dolor ultrices pulvinar. Mauris eget convallis lectus." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/kolo4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae lectus quis dolor ultrices pulvinar. Mauris eget convallis lectus." />
 </RelativeLayout>

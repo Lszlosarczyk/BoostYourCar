@@ -9,16 +9,15 @@
         <entry key="..\:/BoostYourCar/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/BoostYourCar/app/src/main/res/layout/content_layout.xml" value="0.17831813576494426" />
         <entry key="..\:/BoostYourCar/app/src/main/res/layout/content_main.xml" value="0.358695652173913" />
+        <entry key="..\:/BoostYourCar/app/src/main/res/layout/fragment_felgi.xml" value="0.33" />
+        <entry key="..\:/BoostYourCar/app/src/main/res/layout/fragment_kosmetykisamochodowe.xml" value="0.1" />
+        <entry key="..\:/BoostYourCar/app/src/main/res/layout/fragment_tuningsilnika.xml" value="0.1" />
+        <entry key="..\:/BoostYourCar/app/src/main/res/layout/fragment_tuningwewnetrzny.xml" value="0.1" />
+        <entry key="..\:/BoostYourCar/app/src/main/res/layout/fragment_tuningzawieszenia.xml" value="0.1" />
+        <entry key="..\:/BoostYourCar/app/src/main/res/layout/fragment_tuningzewnetrzny.xml" value="0.1" />
         <entry key="..\:/BoostYourCar/app/src/main/res/layout/main_drawer_header.xml" value="0.17831813576494426" />
+        <entry key="..\:/BoostYourCar/app/src/main/res/layout/nav_logout.xml" value="0.1" />
         <entry key="..\:/BoostYourCar/app/src/main/res/menu/main_drawer_menu.xml" value="0.29444444444444445" />
-        <entry key="..\:/Programy/BoostYourCar/app/src/main/res/layout/activity_login.xml" value="0.24954710144927536" />
-        <entry key="..\:/Programy/BoostYourCar/app/src/main/res/layout/activity_main.xml" value="0.24954710144927536" />
-        <entry key="..\:/Programy/BoostYourCar/app/src/main/res/layout/fragment_felgi.xml" value="0.358695652173913" />
-        <entry key="..\:/Programy/BoostYourCar/app/src/main/res/layout/fragment_kosmetykisamochodowe.xml" value="0.358695652173913" />
-        <entry key="..\:/Programy/BoostYourCar/app/src/main/res/layout/fragment_tuningsilnika.xml" value="0.358695652173913" />
-        <entry key="..\:/Programy/BoostYourCar/app/src/main/res/layout/fragment_tuningwewnetrzny.xml" value="0.358695652173913" />
-        <entry key="..\:/Programy/BoostYourCar/app/src/main/res/layout/fragment_tuningzawieszenia.xml" value="0.358695652173913" />
-        <entry key="..\:/Programy/BoostYourCar/app/src/main/res/layout/fragment_tuningzewnetrzny.xml" value="0.358695652173913" />
       </map>
     </option>
   </component>
