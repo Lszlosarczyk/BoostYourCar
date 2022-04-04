@@ -5,6 +5,8 @@ import android.util.Log;
 import com.google.gson.Gson;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -16,13 +18,15 @@ public class ClientHttp
 {
     private final static String TAG = "ClientHttp";
 
-    private final String url = "https://randomuser.me/api/"; //adres rest api
+    private final String url = "http://192.168.1.52:9999/boostyourcar/"; //adres rest api
     private final OkHttpClient client = new OkHttpClient().newBuilder().build();
 
-    public Boolean login(String user, String password)
+    private String endpoint = "";
+
+    public Boolean get(String endpoint, MyCallback callback)
     {
         Request request = new Request.Builder()
-                .url(url)
+                .url(url+endpoint)
                 .method("GET", null) //GET, PUT, DELETE, POST
                 .build();
 
@@ -31,18 +35,17 @@ public class ClientHttp
         {
             public void onResponse(Call call, Response response) throws IOException
             {
-
-                Log.d(TAG, "onResponse: " + response.body().string());
                 if (response.code() == 200)
                 {
-                    Log.d(TAG, "code=200. OK ");
-//                    Gson gson = new Gson();
-//                    MyClass myClass = gson.fromJson(response.body().string(), MyClass.class);
+                    Gson gson = new Gson();
+                    Product[] product = gson.fromJson(response.body().string(), Product[].class);
+                    callback.onSuccess(product);
                 }
             }
 
             public void onFailure(Call call, IOException e)
             {
+                callback.onFailure(e.getMessage());
                 Log.e(TAG, "onFailure: " + e.getMessage());
             }
         });
